@@ -16,7 +16,7 @@ namespace Auth_Bearer_JWT.Service
 
             SecurityTokenDescriptor tokenDescriptor = new()
             {
-                Expires = DateTime.Now.AddHours(1),
+                Expires = DateTime.UtcNow.AddHours(1),
 
                 SigningCredentials = new(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
 

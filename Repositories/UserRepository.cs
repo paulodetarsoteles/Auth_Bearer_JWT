@@ -35,7 +35,7 @@ namespace Auth_Bearer_JWT.Repositories
 
             return users.FirstOrDefault(x =>
                                         x.Name.ToLower() == name.ToLower() &&
-                                        x.Password.ToLower() == password.ToLower());
+                                        x.Password == password);
         }
     }
 }
