@@ -13,3 +13,4 @@ Projeto de estudo de API autoral básico de controle de autenticação e autoriz
 - Banco de Dados: N/A
 
 **Obs: Projeto não possui acesso a banco de dados todos as informações utilizamos em memória**
+Projeto seguiu o víseo do André Baltiere (balta.io) -> LINK: https://www.youtube.com/watch?v=vAUXU0YIWlU
